@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Information Form</title>
+</head>
+<link rel="stylesheet" href="style.css">
+
+<body>
+    <div class="heading">
+        <h2>User Information Form</h2>
+    </div>
+    <div class="form">
+        <form  action="" id="userForm">
+            <div>
+                <label for="fullName">Full Name:-</label>
+                <input type="text" id="fullName" name="fullName" required><br>
+
+                <label for="email">Email:-</label>
+                <input type="email" id="email" name="email" required><br>
+
+                <label for="contactNo">Contact No:-</label>
+                <input type="tel" id="contactNo" name="contactNo" required><br>
+
+                <label for="address">Address:-</label>
+                <textarea id="address" name="address" required></textarea><br>
+            </div>
+            <div>
+                <label for="languages">Languages:-</label>
+                <!-- <select id="languages" name="languages[]"  required>
+        <option value="english">English</option>
+        <option value="spanish">Spanish</option>
+        <option value="french">French</option>
+    </select> -->
+                <select name="languages[]" id="languages" required>
+                    <option value="select">Select Languages:- </option>
+                    <option value="hindi">Hindi</option>
+                    <option value="english">English</option>
+                    <option value="gujarati">Gujarati</option>
+                </select>
+                <a href="#" id="addLanguage">Add language</a><br>
+            </div>
+
+            <div class="gender">
+                <label for="gender" > Gender:-</label> 
+                <select name="languages[]" id="languages" required>
+                    <option value="select">Select Gender:- </option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <button id="Button" >Submit</button>
+            <!-- <input type="submit" value="Submit"> -->
+        </form>
+    </div>
+</body>
+<script src="jquery-3.7.1.min.js"></script>
+<script src="script.js"></script>
+
+
+</html>

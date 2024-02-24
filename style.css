@@ -1,0 +1,116 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%vh;
+    width: 100%vh;
+
+}
+form{
+    height: auto;
+    width: 600px;
+    border: 1px solid black;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: aliceblue;
+    border-radius: 9px;
+    box-shadow: 0 0 20px rgba(36, 33, 33, 0.678);
+}
+.form{
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+
+}
+h2{
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    color: burlywood;
+    font-weight: bold;
+    font-style: oblique;
+    font-size: 2.5rem;
+
+}
+input[type="text"],input[type="email"],input[type="tel"],textarea,select{
+    width: 100%;
+    padding:10px;
+    margin: 5px auto;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
+
+}
+/* .gender{
+    
+    font-size: 20px;
+    font-weight: 500;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    padding: left 30px;
+    cursor: pointer;
+
+}
+
+.gender + .gender {
+    margin-left: 20px;
+}
+.gender input[type="radio"]{
+    display: none;
+
+}
+.gender span{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border:3px solid black;
+    display: block;
+    position: absolute;
+    left:0;
+    top:7px;
+}
+.gender span:after{
+    content: "";
+    height: 8px;
+    width: 8px;
+    background:#8ba3e0;
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%) scale(0);
+    border-radius: 50%;
+    transition: 300ms ease-in-out 0s;
+}
+.gender input[type="radio"]:checked ~ span:after{
+    transform: translate(-50%,-50%) scale(1);
+} */
+button{
+    display: flex;
+    /* flex-shrink: center; */
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    size: 50px;
+    margin-top: 10px ;   
+    padding: 10px ;
+    background-color: grey;
+    color: aliceblue;
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+}
+#Button {
+    transition-duration: 0.4s;
+  }
+  
+#Button:hover {
+    background-color: #8ba3e0; /* Green */
+    color: white;
+  }
